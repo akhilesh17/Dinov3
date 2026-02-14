@@ -102,6 +102,11 @@ Computes cosine similarity between all patches and the object embedding, reshape
 #### `visualize_overlay_with_colorbar(img, sim_map, alpha=0.5)`
 Generates a heatmap overlay showing similarity scores across the image.
 
+### Example Output
+
+!Output Visualization
+![Output](output.png)
+
 ## How It Works
 
 1. **Feature Extraction**: DINOv3 encodes images into 196 patch tokens (14×14 grid) with dimension 384
